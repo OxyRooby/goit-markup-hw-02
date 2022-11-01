@@ -49,7 +49,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-   
+    color: #757575;
 }
 
 /*main*/ 
@@ -68,10 +68,10 @@ h1 {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 200px 0 0 0;
+   
 }
 .button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -85,6 +85,7 @@ h1 {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .benefits {
 }
 .benefits-list {
@@ -100,8 +101,7 @@ h3 {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 
 .about {
@@ -112,7 +112,6 @@ h2 {
     line-height: 1.23;
     text-align: center;
     letter-spacing: 0.03em;
-    
 }
 .about-list {
 }
@@ -122,6 +121,12 @@ h2 {
 .team-list {
 }
 .team-list-item{
+}
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 .team-list-item-position {
     font-size: 16px;
@@ -158,4 +163,8 @@ h2 {
 .footer-list-item:hover,
 .footer-list-item:focus {
     color: #2196F3;
+}
+
+.main-page-portfolio {
+    background: #2F303A;
 }
